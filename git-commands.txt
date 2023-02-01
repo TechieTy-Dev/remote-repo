@@ -11,7 +11,7 @@
 *** GIT COMMIT *** - git commit -m "commit message" - Saves our changes locally
 *** GIT PUSH *** - git push <remote> <branch-name> - pushes changes to our server
 *** GIT PULL *** - git pull <remote> - gets updates from remote repository
-*** GIT LOG *** - git log --online  - to see commit history and find hash code
+*** GIT LOG *** - git log --oneline  - to see commit history and find hash code
 *** GIT REVERT *** - git revert <hash-code> - revert changes in repository
 *** GIT MERGE *** - git merge - merges branch to master branch {
     steps to take before merge
