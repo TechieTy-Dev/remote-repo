@@ -1,0 +1,21 @@
+
+*** GIT CLONE *** -  git clone <repository-link> or download zip file
+*** GIT BRANCH *** - git branch <branch-name> [
+    git push -u <remote> <branch-name> - pushing new branch to remote repository
+    git branch --list - lets you view branches
+    git branch -d <branch-name> - deletes branch
+]
+*** GIT CHECKOUT *** - git checkout -b <name-of-branch>  - creating and switching between branches at the same time
+*** GIT STATUS *** - git status - current status of current branch {commits, push, pull, unstaged, untracked, created, modified, deleted}
+*** GIT ADD *** - git add <file> or git add -A - adds files to the staging area of repository or adds all files
+*** GIT COMMIT *** - git commit -m "commit message" - Saves our changes locally
+*** GIT PUSH *** - git push <remote> <branch-name> - pushes changes to our server
+*** GIT PULL *** - git pull <remote> - gets updates from remote repository
+*** GIT LOG *** - git log --online  - to see commit history and find hash code
+*** GIT REVERT *** - git revert <hash-code> - revert changes in repository
+*** GIT MERGE *** - git merge - merges branch to master branch {
+    steps to take before merge
+    1. git checkout dev - switches to dev/master branch
+    2. git fetch - updating local master branch before merge
+    3. git merge <branch-name> - merge branch to master branch
+}
